@@ -1,0 +1,37 @@
+/* navigation */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding:0px 5px;
+}
+/* Home */
+#home{
+    height:370px;
+    pad: 7px 70px;
+}
+#home::before{
+    height:480px;
+}
+#home p{
+    font-size: 13px;
+}
+/* services */
+
+#services{
+    flex-direction: column;
+    
+}
+
+
+/* clients */
+#client-section{
+    flex-wrap:wrap;
+}
+/* contact us */
+
+/* utility classses */
+.h-primary{
+    font-size: 25px;
+}

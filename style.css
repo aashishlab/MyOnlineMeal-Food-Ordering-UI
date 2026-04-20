@@ -1,0 +1,245 @@
+/* CSS REset */
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* navigation bar */
+#navbar{
+    display: flex;
+    position: relative;
+    align-items: center;
+    top:0px;
+    
+}
+
+/* navigation bar:logo and image */
+#logo{
+       margin: 10px 34px;
+}
+#logo img{
+
+    height:50px;
+    margin: 3px 6px;
+
+}
+
+
+/* navigation bar:list styling */
+
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    height: 100%;
+    width:100%;
+    background-color: black;
+    z-index: -1;
+    opacity: 0.;
+    position: absolute;
+    content: "";
+}
+#navbar ul li{
+   
+    list-style-type: none;
+    
+
+}
+#navbar ul li a{
+    display: block;
+    padding: 7px 22px;
+    text-decoration: none;
+    color: yellow;
+    border-radius: 20px;
+    font-family: "Bree Serif", serif;
+
+}
+
+#navbar ul li a:hover{
+   color: black;
+   background-color: white;
+}
+/* 
+home section */
+
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px 200px;
+    height:585px;
+}
+#home::before{
+    content: "";
+     position: absolute;
+    background-image: url('./assests/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:87%;
+    top:0px;
+    width:100%;
+    z-index:-1;
+    opacity:0.89;
+    
+}
+#home h1{
+    color:white;
+    text-align: center;
+    font-family: "Bree Serif", serif;
+}
+#home p{
+    color:white;
+    text-align: center;
+    font-size: 1rem;
+    
+        font-family: "Bree Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+      
+      
+}
+
+/* service section */
+#services{
+    margin:20px;
+    display: flex;
+    
+
+}
+#services .box{
+    border:2px solid yellowgreen;
+    margin:10px;
+    padding:10px;
+    border-radius: 23px;
+    background-color: rgb(240, 234, 234);
+    
+    
+}
+#services .box img{
+    height:100px;
+    margin: auto;
+    display: block;
+    
+}
+.box p{
+    text-align: center;
+
+}
+
+/* clients section */
+#client-section{
+    height:450px;
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background-image: url('./assests/bg4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 63%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.59;
+
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clients img{
+    height:150px;
+
+}
+.client-item{
+    /* border:2px solid yellowgreen */
+    padding: 40px;
+}
+
+
+/* Contact section */
+
+#contact{
+    height:470px;
+        
+  position:relative;
+}
+#contact::before{
+    content:"";
+    position: absolute;
+    height:100%;
+    width:100%;
+    z-index:-1;
+    opacity:1;
+    background-image: url('./assests/c1.avif');
+    background-size: cover;
+    
+}
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+#contact-box form{
+    width:40%;
+}
+#contact-box input,
+#contact-box textarea{
+    width:100%;
+    padding: 0.5rem;
+    margin:5px;
+    border-radius: 6px;
+    font-family: "Bree Serif", serif;
+    
+}
+
+
+/* footer */
+
+#foot{
+    background-color: black;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* utility classes */
+.h-primary{
+ font-size: 2.5rem;
+ padding: 10px;
+ text-align: center;
+ font-family: "Bree Serif", serif;
+}
+.h-secondary{
+    font-size: 1.5rem;
+    padding:10px;
+    text-align: center;
+    font-family: "Bree Serif", serif;
+
+}
+.btn{
+    color:yellow;
+    border-radius: 10px;
+    opacity: 0.80;
+    font-size: 1rem;
+    background-color: yellowgreen;
+    padding: 5px;
+    margin:17px;
+    border: 1px solid white;
+    font-family: "Bree Serif", serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    border:2px dashed rgb(90, 101, 69);
+    
+}
