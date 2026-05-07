@@ -3,6 +3,8 @@
 A modern and responsive **food ordering frontend website** built using HTML, CSS, and JavaScript.  
 This project showcases a clean and user-friendly interface for browsing meals, placing orders, and exploring services.
 
+
+this is the practice project for frontend development, it is not a real website and does not have backend functionality.
 ---
 
 ## 🚀 Features
